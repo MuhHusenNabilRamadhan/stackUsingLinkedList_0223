@@ -26,7 +26,7 @@ class Stack // nama kelas
             top = NULL;
         }
         
-         int push (int value)
+        int push (int value)
         {
             Node *newNode = new Node();
             newNode-> data = value;
@@ -35,4 +35,17 @@ class Stack // nama kelas
             cout << " Push Value : " << value << endl;
             return value;
         }
+
+        void pop()
+        {
+            if (isEmpty())
+            {
+                cout << " Stack is Empty " << endl;
+            }
+
+            cout << " Pooped Value : " << top->data << endl;
+            top = top->next;
+        }
+
+    
 };
