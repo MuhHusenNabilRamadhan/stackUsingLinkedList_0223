@@ -90,7 +90,13 @@ int main()
 
         switch (choice) //perbaiki kontrol yang tidak valid
         {
-           
+        case 1  :
+            cout << "Enter the value to push : ";
+            cin >> value;
+            stact.push(value);
+            break;
+        
+            
         }
     }
 }
