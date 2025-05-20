@@ -66,7 +66,7 @@ class Stack // nama kelas
             }
         }
 
-        bool isEmpty() // memeperbaiki agar fungsi pop diatas tidak eror
+        bool isEmpty() // memperbaiki agar fungsi pop diatas tidak eror
         {
             return top = NULL;
         }
@@ -79,12 +79,18 @@ int main()
     int choice = 0;
     int value;
 
-    while (choice != 5)
+    while (choice != 5) //menjalankan program
     {
         cout << "1. Push\n";
         cout << "2. Pop\n";
         cout << "3. Peek\n";
         cout << "4. Exit\n";
         cout << "Enter your choice : ";
+        cin >> choice;
+
+        switch (choice) //perbaiki kontrol yang tidak valid
+        {
+           
+        }
     }
 }
