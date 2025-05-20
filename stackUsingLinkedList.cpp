@@ -36,7 +36,7 @@ class Stack // nama kelas
             return value;
         }
 
-        void pop()
+        void pop() //prosedur perbaiki fungsi pop dalam stack
         {
             if (isEmpty())
             {
@@ -53,7 +53,7 @@ class Stack // nama kelas
             {
                 cout << "List is Empty. " << endl;
             }
-            
+
             else
             {
                 Node *current = top;
@@ -63,9 +63,12 @@ class Stack // nama kelas
                     current = current->next;
                 }
                 cout << endl;
-
             }
         }
 
-    
+        bool isEmpty()
+        {
+            return top = NULL;
+        }
+  
 };
