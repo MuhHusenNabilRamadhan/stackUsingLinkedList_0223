@@ -14,7 +14,16 @@ class Node // nama kelas
         }
 };
 
-class Stack
+class Stack // nama kelas
 {
+    private: // akses modifier
+        Node *top;
+
+    public: // akses modifier
+        Stack()
+        {
+
+            top = NULL;
+        }
 
 };
