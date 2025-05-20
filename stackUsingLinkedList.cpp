@@ -47,14 +47,14 @@ class Stack // nama kelas
             top = top->next;
         }
 
-        void peek()
+        void peek() //perbaiki fungsi peek agar tampilkan nilai teratas
         {
             if(top == NULL)
             {
                 cout << "List is Empty. " << endl;
             }
 
-            else
+            else //tamplkan nilai dari atas ke bawah
             {
                 Node *current = top;
                 while (current != NULL)
@@ -66,9 +66,13 @@ class Stack // nama kelas
             }
         }
 
-        bool isEmpty()
+        bool isEmpty() // memeperbaiki agar fungsi pop diatas tidak eror
         {
             return top = NULL;
         }
-  
 };
+
+int main()
+{
+   
+}
