@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-class Node
+class Node // nama kelas
 {
-    public:
-        int data;
+    public: // akses modifier
+        int data; // bil. bulat
         Node *next;
 
         Node()
@@ -12,4 +12,9 @@ class Node
 
             next = NULL;
         }
+};
+
+class Stack
+{
+
 };
